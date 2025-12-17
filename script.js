@@ -11,7 +11,7 @@ const divide = (arr, n) => {
 			sum+=curr;
 		}else{
 			result.push(current);
-			current = [num];
+			current = [curr];
 			sum = curr;
 		}
 	}
